@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-stagger-curved-minimal",
+  "title": "Stagger curved shutter (Minimal)",
+  "description": "800ms stagger with curvature and thick slats. Color: Minimal.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-stagger-curved-minimal/shutter-stagger-curved-minimal.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** 800ms stagger with curvature and thick slats. Color: Minimal. */\nexport function ShutterStaggerCurvedMinimal(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      panels={2}\n      panelMode=\"independent\"\n      stagger={800}\n      curved\n      slatSize=\"thick\"\n      defaultLevels={[85, 15]}\n      variant=\"minimal\"\n      label=\"Stagger curved · Minimal\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

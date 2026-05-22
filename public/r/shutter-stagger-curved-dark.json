@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-stagger-curved-dark",
+  "title": "Stagger curved shutter (Dark)",
+  "description": "800ms stagger with curvature and thick slats. Color: Dark.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-stagger-curved-dark/shutter-stagger-curved-dark.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** 800ms stagger with curvature and thick slats. Color: Dark. */\nexport function ShutterStaggerCurvedDark(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      panels={2}\n      panelMode=\"independent\"\n      stagger={800}\n      curved\n      slatSize=\"thick\"\n      defaultLevels={[85, 15]}\n      variant=\"dark\"\n      label=\"Stagger curved · Dark\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

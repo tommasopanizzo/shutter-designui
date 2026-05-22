@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-double-casement-independent-warm",
+  "title": "Independent double casement shutter (Warm)",
+  "description": "Two casement panels with independent levels. Color: Warm.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-double-casement-independent-warm/shutter-double-casement-independent-warm.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Two casement panels with independent levels. Color: Warm. */\nexport function ShutterDoubleCasementIndependentWarm(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      shape=\"casement\"\n      panels={2}\n      panelMode=\"independent\"\n      slatSize=\"thick\"\n      defaultLevels={[30, 80]}\n      variant=\"warm\"\n      label=\"Independent double · Warm\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

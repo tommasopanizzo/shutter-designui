@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-curved-chunky-dark",
+  "title": "Curved chunky-slat shutter (Dark)",
+  "description": "Large curved shutter with chunky slats. Color: Dark.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-curved-chunky-dark/shutter-curved-chunky-dark.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Large curved shutter with chunky slats. Color: Dark. */\nexport function ShutterCurvedChunkyDark(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      slatSize=\"chunky\"\n      curved\n      defaultLevel={75}\n      variant=\"dark\"\n      label=\"Curved chunky · Dark\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

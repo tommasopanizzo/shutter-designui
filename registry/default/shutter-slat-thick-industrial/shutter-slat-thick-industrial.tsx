@@ -1,0 +1,19 @@
+"use client";
+
+import type { ComponentProps } from "react";
+
+import { Shutter } from "@/components/shutter";
+
+/** Thick slats. Color: Industrial. */
+export function ShutterSlatThickIndustrial(props: ComponentProps<typeof Shutter>) {
+  return (
+    <Shutter
+      size="md"
+      slatSize="thick"
+      defaultLevel={60}
+      variant="industrial"
+      label="Thick slats · Industrial"
+      {...props}
+    />
+  );
+}
