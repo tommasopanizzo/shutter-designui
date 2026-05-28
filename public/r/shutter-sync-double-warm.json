@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-sync-double-warm",
+  "title": "Synced double shutter (Warm)",
+  "description": "Two synchronized panels. Color: Warm.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-sync-double-warm/shutter-sync-double-warm.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Two synchronized panels. Color: Warm. */\nexport function ShutterSyncDoubleWarm(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      panels={2}\n      defaultLevel={60}\n      variant=\"warm\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-sync-double-dark",
+  "title": "Synced double shutter (Dark)",
+  "description": "Two synchronized panels. Color: Dark.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-sync-double-dark/shutter-sync-double-dark.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Two synchronized panels. Color: Dark. */\nexport function ShutterSyncDoubleDark(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      panels={2}\n      defaultLevel={60}\n      variant=\"dark\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

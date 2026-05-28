@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-sash-industrial",
+  "title": "Sash shutter (Industrial)",
+  "description": "Sash window with horizontal division. Color: Industrial.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-sash-industrial/shutter-sash-industrial.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Sash window with horizontal division. Color: Industrial. */\nexport function ShutterSashIndustrial(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"md\"\n      shape=\"sash\"\n      defaultLevel={60}\n      variant=\"industrial\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

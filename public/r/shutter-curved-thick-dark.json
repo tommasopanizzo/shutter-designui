@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-curved-thick-dark",
+  "title": "Curved thick-slat shutter (Dark)",
+  "description": "3D curvature with thick slats. Color: Dark.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-curved-thick-dark/shutter-curved-thick-dark.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** 3D curvature with thick slats. Color: Dark. */\nexport function ShutterCurvedThickDark(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"md\"\n      slatSize=\"thick\"\n      curved\n      defaultLevel={55}\n      variant=\"dark\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

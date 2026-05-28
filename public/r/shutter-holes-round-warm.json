@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-holes-round-warm",
+  "title": "Round-hole shutter (Warm)",
+  "description": "Thick slats with circular perforations. Color: Warm.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-holes-round-warm/shutter-holes-round-warm.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Thick slats with circular perforations. Color: Warm. */\nexport function ShutterHolesRoundWarm(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"md\"\n      slatSize=\"thick\"\n      holeShape=\"circle\"\n      defaultLevel={50}\n      variant=\"warm\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-stagger-1500-warm",
+  "title": "Stagger 1.5s shutter (Warm)",
+  "description": "Independent panels with 1500ms stagger. Color: Warm.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-stagger-1500-warm/shutter-stagger-1500-warm.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Independent panels with 1500ms stagger. Color: Warm. */\nexport function ShutterStagger1500Warm(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      panels={2}\n      panelMode=\"independent\"\n      stagger={1500}\n      defaultLevels={[0, 0]}\n      variant=\"warm\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

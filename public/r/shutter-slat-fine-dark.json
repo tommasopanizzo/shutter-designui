@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-slat-fine-dark",
+  "title": "Fine-slat shutter (Dark)",
+  "description": "Thin slats. Color: Dark.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-slat-fine-dark/shutter-slat-fine-dark.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Thin slats. Color: Dark. */\nexport function ShutterSlatFineDark(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"md\"\n      slatSize=\"fine\"\n      defaultLevel={60}\n      variant=\"dark\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

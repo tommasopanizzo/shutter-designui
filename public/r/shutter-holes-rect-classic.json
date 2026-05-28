@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-holes-rect-classic",
+  "title": "Rectangular-hole shutter (Classic)",
+  "description": "Realistic rectangular slot perforations. Color: Classic.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-holes-rect-classic/shutter-holes-rect-classic.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Realistic rectangular slot perforations. Color: Classic. */\nexport function ShutterHolesRectClassic(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"md\"\n      slatSize=\"thick\"\n      holeShape=\"rectangle\"\n      defaultLevel={50}\n      variant=\"classic\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

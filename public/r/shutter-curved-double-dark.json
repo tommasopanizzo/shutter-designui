@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-curved-double-dark",
+  "title": "Curved double shutter (Dark)",
+  "description": "Two panels with curvature. Color: Dark.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-curved-double-dark/shutter-curved-double-dark.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Two panels with curvature. Color: Dark. */\nexport function ShutterCurvedDoubleDark(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      panels={2}\n      curved\n      slatSize=\"thick\"\n      defaultLevel={60}\n      variant=\"dark\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

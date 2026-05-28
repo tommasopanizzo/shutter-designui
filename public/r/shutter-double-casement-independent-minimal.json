@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-double-casement-independent-minimal",
+  "title": "Independent double casement shutter (Minimal)",
+  "description": "Two casement panels with independent levels. Color: Minimal.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-double-casement-independent-minimal/shutter-double-casement-independent-minimal.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Two casement panels with independent levels. Color: Minimal. */\nexport function ShutterDoubleCasementIndependentMinimal(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      shape=\"casement\"\n      panels={2}\n      panelMode=\"independent\"\n      slatSize=\"thick\"\n      defaultLevels={[30, 80]}\n      variant=\"minimal\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

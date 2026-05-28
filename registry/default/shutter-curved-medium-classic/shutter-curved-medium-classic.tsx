@@ -1,0 +1,19 @@
+"use client";
+
+import type { ComponentProps } from "react";
+
+import { Shutter } from "@/components/shutter";
+
+/** 3D curvature with medium slats. Color: Classic. */
+export function ShutterCurvedMediumClassic(props: ComponentProps<typeof Shutter>) {
+  return (
+    <Shutter
+      size="md"
+      slatSize="medium"
+      curved
+      defaultLevel={65}
+      variant="classic"
+      {...props}
+    />
+  );
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-holes-rect-curved-dark",
+  "title": "Curved rectangular-hole shutter (Dark)",
+  "description": "Rectangular holes with 3D curvature. Color: Dark.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-holes-rect-curved-dark/shutter-holes-rect-curved-dark.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Rectangular holes with 3D curvature. Color: Dark. */\nexport function ShutterHolesRectCurvedDark(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      slatSize=\"chunky\"\n      holeShape=\"rectangle\"\n      curved\n      defaultLevel={60}\n      variant=\"dark\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

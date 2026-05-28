@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shutter-curved-chunky-industrial",
+  "title": "Curved chunky-slat shutter (Industrial)",
+  "description": "Large curved shutter with chunky slats. Color: Industrial.",
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "@chumy/shutter"
+  ],
+  "files": [
+    {
+      "path": "registry/default/shutter-curved-chunky-industrial/shutter-curved-chunky-industrial.tsx",
+      "content": "\"use client\";\n\nimport type { ComponentProps } from \"react\";\n\nimport { Shutter } from \"@/components/shutter\";\n\n/** Large curved shutter with chunky slats. Color: Industrial. */\nexport function ShutterCurvedChunkyIndustrial(props: ComponentProps<typeof Shutter>) {\n  return (\n    <Shutter\n      size=\"lg\"\n      slatSize=\"chunky\"\n      curved\n      defaultLevel={75}\n      variant=\"industrial\"\n      {...props}\n    />\n  );\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "shutter"
+  ],
+  "type": "registry:component"
+}

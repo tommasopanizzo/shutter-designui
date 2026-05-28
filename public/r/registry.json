@@ -1,0 +1,2892 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "chumy",
+  "homepage": "https://github.com/tommasopanizzo/shutter-designui",
+  "items": [
+    {
+      "name": "shutter",
+      "type": "registry:ui",
+      "title": "Shutter",
+      "description": "Base shutter component: drag, motor controls, variants, and window shapes.",
+      "dependencies": [
+        "lucide-react",
+        "framer-motion",
+        "clsx",
+        "tailwind-merge"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "components/shutter.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "shutter-rectangle-classic",
+      "type": "registry:component",
+      "title": "Rectangle shutter (Classic)",
+      "description": "Rectangular window shutter. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-rectangle-classic/shutter-rectangle-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-rectangle-warm",
+      "type": "registry:component",
+      "title": "Rectangle shutter (Warm)",
+      "description": "Rectangular window shutter. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-rectangle-warm/shutter-rectangle-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-rectangle-dark",
+      "type": "registry:component",
+      "title": "Rectangle shutter (Dark)",
+      "description": "Rectangular window shutter. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-rectangle-dark/shutter-rectangle-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-rectangle-minimal",
+      "type": "registry:component",
+      "title": "Rectangle shutter (Minimal)",
+      "description": "Rectangular window shutter. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-rectangle-minimal/shutter-rectangle-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-rectangle-industrial",
+      "type": "registry:component",
+      "title": "Rectangle shutter (Industrial)",
+      "description": "Rectangular window shutter. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-rectangle-industrial/shutter-rectangle-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-arch-classic",
+      "type": "registry:component",
+      "title": "Arch shutter (Classic)",
+      "description": "Arched window shutter. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-arch-classic/shutter-arch-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-arch-warm",
+      "type": "registry:component",
+      "title": "Arch shutter (Warm)",
+      "description": "Arched window shutter. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-arch-warm/shutter-arch-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-arch-dark",
+      "type": "registry:component",
+      "title": "Arch shutter (Dark)",
+      "description": "Arched window shutter. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-arch-dark/shutter-arch-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-arch-minimal",
+      "type": "registry:component",
+      "title": "Arch shutter (Minimal)",
+      "description": "Arched window shutter. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-arch-minimal/shutter-arch-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-arch-industrial",
+      "type": "registry:component",
+      "title": "Arch shutter (Industrial)",
+      "description": "Arched window shutter. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-arch-industrial/shutter-arch-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-round-classic",
+      "type": "registry:component",
+      "title": "Round shutter (Classic)",
+      "description": "Round window shutter. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-round-classic/shutter-round-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-round-warm",
+      "type": "registry:component",
+      "title": "Round shutter (Warm)",
+      "description": "Round window shutter. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-round-warm/shutter-round-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-round-dark",
+      "type": "registry:component",
+      "title": "Round shutter (Dark)",
+      "description": "Round window shutter. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-round-dark/shutter-round-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-round-minimal",
+      "type": "registry:component",
+      "title": "Round shutter (Minimal)",
+      "description": "Round window shutter. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-round-minimal/shutter-round-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-round-industrial",
+      "type": "registry:component",
+      "title": "Round shutter (Industrial)",
+      "description": "Round window shutter. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-round-industrial/shutter-round-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-porthole-classic",
+      "type": "registry:component",
+      "title": "Porthole shutter (Classic)",
+      "description": "Porthole window with rim. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-porthole-classic/shutter-porthole-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-porthole-warm",
+      "type": "registry:component",
+      "title": "Porthole shutter (Warm)",
+      "description": "Porthole window with rim. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-porthole-warm/shutter-porthole-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-porthole-dark",
+      "type": "registry:component",
+      "title": "Porthole shutter (Dark)",
+      "description": "Porthole window with rim. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-porthole-dark/shutter-porthole-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-porthole-minimal",
+      "type": "registry:component",
+      "title": "Porthole shutter (Minimal)",
+      "description": "Porthole window with rim. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-porthole-minimal/shutter-porthole-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-porthole-industrial",
+      "type": "registry:component",
+      "title": "Porthole shutter (Industrial)",
+      "description": "Porthole window with rim. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-porthole-industrial/shutter-porthole-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-gothic-classic",
+      "type": "registry:component",
+      "title": "Gothic shutter (Classic)",
+      "description": "Gothic window shape. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-gothic-classic/shutter-gothic-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-gothic-warm",
+      "type": "registry:component",
+      "title": "Gothic shutter (Warm)",
+      "description": "Gothic window shape. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-gothic-warm/shutter-gothic-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-gothic-dark",
+      "type": "registry:component",
+      "title": "Gothic shutter (Dark)",
+      "description": "Gothic window shape. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-gothic-dark/shutter-gothic-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-gothic-minimal",
+      "type": "registry:component",
+      "title": "Gothic shutter (Minimal)",
+      "description": "Gothic window shape. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-gothic-minimal/shutter-gothic-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-gothic-industrial",
+      "type": "registry:component",
+      "title": "Gothic shutter (Industrial)",
+      "description": "Gothic window shape. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-gothic-industrial/shutter-gothic-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-casement-4-classic",
+      "type": "registry:component",
+      "title": "4-pane casement shutter (Classic)",
+      "description": "Casement window with cross mullions. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-casement-4-classic/shutter-casement-4-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-casement-4-warm",
+      "type": "registry:component",
+      "title": "4-pane casement shutter (Warm)",
+      "description": "Casement window with cross mullions. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-casement-4-warm/shutter-casement-4-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-casement-4-dark",
+      "type": "registry:component",
+      "title": "4-pane casement shutter (Dark)",
+      "description": "Casement window with cross mullions. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-casement-4-dark/shutter-casement-4-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-casement-4-minimal",
+      "type": "registry:component",
+      "title": "4-pane casement shutter (Minimal)",
+      "description": "Casement window with cross mullions. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-casement-4-minimal/shutter-casement-4-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-casement-4-industrial",
+      "type": "registry:component",
+      "title": "4-pane casement shutter (Industrial)",
+      "description": "Casement window with cross mullions. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-casement-4-industrial/shutter-casement-4-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sash-classic",
+      "type": "registry:component",
+      "title": "Sash shutter (Classic)",
+      "description": "Sash window with horizontal division. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sash-classic/shutter-sash-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sash-warm",
+      "type": "registry:component",
+      "title": "Sash shutter (Warm)",
+      "description": "Sash window with horizontal division. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sash-warm/shutter-sash-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sash-dark",
+      "type": "registry:component",
+      "title": "Sash shutter (Dark)",
+      "description": "Sash window with horizontal division. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sash-dark/shutter-sash-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sash-minimal",
+      "type": "registry:component",
+      "title": "Sash shutter (Minimal)",
+      "description": "Sash window with horizontal division. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sash-minimal/shutter-sash-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sash-industrial",
+      "type": "registry:component",
+      "title": "Sash shutter (Industrial)",
+      "description": "Sash window with horizontal division. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sash-industrial/shutter-sash-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-classic",
+      "type": "registry:component",
+      "title": "Double casement shutter (Classic)",
+      "description": "Side-by-side casement panels. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-classic/shutter-double-casement-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-warm",
+      "type": "registry:component",
+      "title": "Double casement shutter (Warm)",
+      "description": "Side-by-side casement panels. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-warm/shutter-double-casement-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-dark",
+      "type": "registry:component",
+      "title": "Double casement shutter (Dark)",
+      "description": "Side-by-side casement panels. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-dark/shutter-double-casement-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-minimal",
+      "type": "registry:component",
+      "title": "Double casement shutter (Minimal)",
+      "description": "Side-by-side casement panels. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-minimal/shutter-double-casement-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-industrial",
+      "type": "registry:component",
+      "title": "Double casement shutter (Industrial)",
+      "description": "Side-by-side casement panels. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-industrial/shutter-double-casement-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-independent-classic",
+      "type": "registry:component",
+      "title": "Independent double casement shutter (Classic)",
+      "description": "Two casement panels with independent levels. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-independent-classic/shutter-double-casement-independent-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-independent-warm",
+      "type": "registry:component",
+      "title": "Independent double casement shutter (Warm)",
+      "description": "Two casement panels with independent levels. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-independent-warm/shutter-double-casement-independent-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-independent-dark",
+      "type": "registry:component",
+      "title": "Independent double casement shutter (Dark)",
+      "description": "Two casement panels with independent levels. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-independent-dark/shutter-double-casement-independent-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-independent-minimal",
+      "type": "registry:component",
+      "title": "Independent double casement shutter (Minimal)",
+      "description": "Two casement panels with independent levels. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-independent-minimal/shutter-double-casement-independent-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-casement-independent-industrial",
+      "type": "registry:component",
+      "title": "Independent double casement shutter (Industrial)",
+      "description": "Two casement panels with independent levels. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-casement-independent-industrial/shutter-double-casement-independent-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-round-classic",
+      "type": "registry:component",
+      "title": "Round-hole shutter (Classic)",
+      "description": "Thick slats with circular perforations. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-round-classic/shutter-holes-round-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-round-warm",
+      "type": "registry:component",
+      "title": "Round-hole shutter (Warm)",
+      "description": "Thick slats with circular perforations. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-round-warm/shutter-holes-round-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-round-dark",
+      "type": "registry:component",
+      "title": "Round-hole shutter (Dark)",
+      "description": "Thick slats with circular perforations. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-round-dark/shutter-holes-round-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-round-minimal",
+      "type": "registry:component",
+      "title": "Round-hole shutter (Minimal)",
+      "description": "Thick slats with circular perforations. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-round-minimal/shutter-holes-round-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-round-industrial",
+      "type": "registry:component",
+      "title": "Round-hole shutter (Industrial)",
+      "description": "Thick slats with circular perforations. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-round-industrial/shutter-holes-round-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-oval-classic",
+      "type": "registry:component",
+      "title": "Oval-hole shutter (Classic)",
+      "description": "Thick slats with elliptical holes. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-oval-classic/shutter-holes-oval-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-oval-warm",
+      "type": "registry:component",
+      "title": "Oval-hole shutter (Warm)",
+      "description": "Thick slats with elliptical holes. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-oval-warm/shutter-holes-oval-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-oval-dark",
+      "type": "registry:component",
+      "title": "Oval-hole shutter (Dark)",
+      "description": "Thick slats with elliptical holes. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-oval-dark/shutter-holes-oval-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-oval-minimal",
+      "type": "registry:component",
+      "title": "Oval-hole shutter (Minimal)",
+      "description": "Thick slats with elliptical holes. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-oval-minimal/shutter-holes-oval-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-oval-industrial",
+      "type": "registry:component",
+      "title": "Oval-hole shutter (Industrial)",
+      "description": "Thick slats with elliptical holes. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-oval-industrial/shutter-holes-oval-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-classic",
+      "type": "registry:component",
+      "title": "Rectangular-hole shutter (Classic)",
+      "description": "Realistic rectangular slot perforations. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-classic/shutter-holes-rect-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-warm",
+      "type": "registry:component",
+      "title": "Rectangular-hole shutter (Warm)",
+      "description": "Realistic rectangular slot perforations. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-warm/shutter-holes-rect-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-dark",
+      "type": "registry:component",
+      "title": "Rectangular-hole shutter (Dark)",
+      "description": "Realistic rectangular slot perforations. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-dark/shutter-holes-rect-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-minimal",
+      "type": "registry:component",
+      "title": "Rectangular-hole shutter (Minimal)",
+      "description": "Realistic rectangular slot perforations. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-minimal/shutter-holes-rect-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-industrial",
+      "type": "registry:component",
+      "title": "Rectangular-hole shutter (Industrial)",
+      "description": "Realistic rectangular slot perforations. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-industrial/shutter-holes-rect-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-curved-classic",
+      "type": "registry:component",
+      "title": "Curved rectangular-hole shutter (Classic)",
+      "description": "Rectangular holes with 3D curvature. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-curved-classic/shutter-holes-rect-curved-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-curved-warm",
+      "type": "registry:component",
+      "title": "Curved rectangular-hole shutter (Warm)",
+      "description": "Rectangular holes with 3D curvature. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-curved-warm/shutter-holes-rect-curved-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-curved-dark",
+      "type": "registry:component",
+      "title": "Curved rectangular-hole shutter (Dark)",
+      "description": "Rectangular holes with 3D curvature. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-curved-dark/shutter-holes-rect-curved-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-curved-minimal",
+      "type": "registry:component",
+      "title": "Curved rectangular-hole shutter (Minimal)",
+      "description": "Rectangular holes with 3D curvature. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-curved-minimal/shutter-holes-rect-curved-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-holes-rect-curved-industrial",
+      "type": "registry:component",
+      "title": "Curved rectangular-hole shutter (Industrial)",
+      "description": "Rectangular holes with 3D curvature. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-holes-rect-curved-industrial/shutter-holes-rect-curved-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-fine-classic",
+      "type": "registry:component",
+      "title": "Fine-slat shutter (Classic)",
+      "description": "Thin slats. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-fine-classic/shutter-slat-fine-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-fine-warm",
+      "type": "registry:component",
+      "title": "Fine-slat shutter (Warm)",
+      "description": "Thin slats. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-fine-warm/shutter-slat-fine-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-fine-dark",
+      "type": "registry:component",
+      "title": "Fine-slat shutter (Dark)",
+      "description": "Thin slats. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-fine-dark/shutter-slat-fine-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-fine-minimal",
+      "type": "registry:component",
+      "title": "Fine-slat shutter (Minimal)",
+      "description": "Thin slats. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-fine-minimal/shutter-slat-fine-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-fine-industrial",
+      "type": "registry:component",
+      "title": "Fine-slat shutter (Industrial)",
+      "description": "Thin slats. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-fine-industrial/shutter-slat-fine-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-medium-classic",
+      "type": "registry:component",
+      "title": "Medium-slat shutter (Classic)",
+      "description": "Medium slat thickness. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-medium-classic/shutter-slat-medium-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-medium-warm",
+      "type": "registry:component",
+      "title": "Medium-slat shutter (Warm)",
+      "description": "Medium slat thickness. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-medium-warm/shutter-slat-medium-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-medium-dark",
+      "type": "registry:component",
+      "title": "Medium-slat shutter (Dark)",
+      "description": "Medium slat thickness. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-medium-dark/shutter-slat-medium-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-medium-minimal",
+      "type": "registry:component",
+      "title": "Medium-slat shutter (Minimal)",
+      "description": "Medium slat thickness. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-medium-minimal/shutter-slat-medium-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-medium-industrial",
+      "type": "registry:component",
+      "title": "Medium-slat shutter (Industrial)",
+      "description": "Medium slat thickness. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-medium-industrial/shutter-slat-medium-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-thick-classic",
+      "type": "registry:component",
+      "title": "Thick-slat shutter (Classic)",
+      "description": "Thick slats. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-thick-classic/shutter-slat-thick-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-thick-warm",
+      "type": "registry:component",
+      "title": "Thick-slat shutter (Warm)",
+      "description": "Thick slats. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-thick-warm/shutter-slat-thick-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-thick-dark",
+      "type": "registry:component",
+      "title": "Thick-slat shutter (Dark)",
+      "description": "Thick slats. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-thick-dark/shutter-slat-thick-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-thick-minimal",
+      "type": "registry:component",
+      "title": "Thick-slat shutter (Minimal)",
+      "description": "Thick slats. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-thick-minimal/shutter-slat-thick-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-thick-industrial",
+      "type": "registry:component",
+      "title": "Thick-slat shutter (Industrial)",
+      "description": "Thick slats. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-thick-industrial/shutter-slat-thick-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-chunky-classic",
+      "type": "registry:component",
+      "title": "Chunky-slat shutter (Classic)",
+      "description": "Extra-thick slats. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-chunky-classic/shutter-slat-chunky-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-chunky-warm",
+      "type": "registry:component",
+      "title": "Chunky-slat shutter (Warm)",
+      "description": "Extra-thick slats. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-chunky-warm/shutter-slat-chunky-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-chunky-dark",
+      "type": "registry:component",
+      "title": "Chunky-slat shutter (Dark)",
+      "description": "Extra-thick slats. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-chunky-dark/shutter-slat-chunky-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-chunky-minimal",
+      "type": "registry:component",
+      "title": "Chunky-slat shutter (Minimal)",
+      "description": "Extra-thick slats. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-chunky-minimal/shutter-slat-chunky-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-slat-chunky-industrial",
+      "type": "registry:component",
+      "title": "Chunky-slat shutter (Industrial)",
+      "description": "Extra-thick slats. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-slat-chunky-industrial/shutter-slat-chunky-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-medium-classic",
+      "type": "registry:component",
+      "title": "Curved medium-slat shutter (Classic)",
+      "description": "3D curvature with medium slats. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-medium-classic/shutter-curved-medium-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-medium-warm",
+      "type": "registry:component",
+      "title": "Curved medium-slat shutter (Warm)",
+      "description": "3D curvature with medium slats. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-medium-warm/shutter-curved-medium-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-medium-dark",
+      "type": "registry:component",
+      "title": "Curved medium-slat shutter (Dark)",
+      "description": "3D curvature with medium slats. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-medium-dark/shutter-curved-medium-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-medium-minimal",
+      "type": "registry:component",
+      "title": "Curved medium-slat shutter (Minimal)",
+      "description": "3D curvature with medium slats. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-medium-minimal/shutter-curved-medium-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-medium-industrial",
+      "type": "registry:component",
+      "title": "Curved medium-slat shutter (Industrial)",
+      "description": "3D curvature with medium slats. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-medium-industrial/shutter-curved-medium-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-thick-classic",
+      "type": "registry:component",
+      "title": "Curved thick-slat shutter (Classic)",
+      "description": "3D curvature with thick slats. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-thick-classic/shutter-curved-thick-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-thick-warm",
+      "type": "registry:component",
+      "title": "Curved thick-slat shutter (Warm)",
+      "description": "3D curvature with thick slats. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-thick-warm/shutter-curved-thick-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-thick-dark",
+      "type": "registry:component",
+      "title": "Curved thick-slat shutter (Dark)",
+      "description": "3D curvature with thick slats. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-thick-dark/shutter-curved-thick-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-thick-minimal",
+      "type": "registry:component",
+      "title": "Curved thick-slat shutter (Minimal)",
+      "description": "3D curvature with thick slats. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-thick-minimal/shutter-curved-thick-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-thick-industrial",
+      "type": "registry:component",
+      "title": "Curved thick-slat shutter (Industrial)",
+      "description": "3D curvature with thick slats. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-thick-industrial/shutter-curved-thick-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-chunky-classic",
+      "type": "registry:component",
+      "title": "Curved chunky-slat shutter (Classic)",
+      "description": "Large curved shutter with chunky slats. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-chunky-classic/shutter-curved-chunky-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-chunky-warm",
+      "type": "registry:component",
+      "title": "Curved chunky-slat shutter (Warm)",
+      "description": "Large curved shutter with chunky slats. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-chunky-warm/shutter-curved-chunky-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-chunky-dark",
+      "type": "registry:component",
+      "title": "Curved chunky-slat shutter (Dark)",
+      "description": "Large curved shutter with chunky slats. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-chunky-dark/shutter-curved-chunky-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-chunky-minimal",
+      "type": "registry:component",
+      "title": "Curved chunky-slat shutter (Minimal)",
+      "description": "Large curved shutter with chunky slats. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-chunky-minimal/shutter-curved-chunky-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-chunky-industrial",
+      "type": "registry:component",
+      "title": "Curved chunky-slat shutter (Industrial)",
+      "description": "Large curved shutter with chunky slats. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-chunky-industrial/shutter-curved-chunky-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-double-classic",
+      "type": "registry:component",
+      "title": "Curved double shutter (Classic)",
+      "description": "Two panels with curvature. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-double-classic/shutter-curved-double-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-double-warm",
+      "type": "registry:component",
+      "title": "Curved double shutter (Warm)",
+      "description": "Two panels with curvature. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-double-warm/shutter-curved-double-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-double-dark",
+      "type": "registry:component",
+      "title": "Curved double shutter (Dark)",
+      "description": "Two panels with curvature. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-double-dark/shutter-curved-double-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-double-minimal",
+      "type": "registry:component",
+      "title": "Curved double shutter (Minimal)",
+      "description": "Two panels with curvature. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-double-minimal/shutter-curved-double-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-curved-double-industrial",
+      "type": "registry:component",
+      "title": "Curved double shutter (Industrial)",
+      "description": "Two panels with curvature. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-curved-double-industrial/shutter-curved-double-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sync-double-classic",
+      "type": "registry:component",
+      "title": "Synced double shutter (Classic)",
+      "description": "Two synchronized panels. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sync-double-classic/shutter-sync-double-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sync-double-warm",
+      "type": "registry:component",
+      "title": "Synced double shutter (Warm)",
+      "description": "Two synchronized panels. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sync-double-warm/shutter-sync-double-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sync-double-dark",
+      "type": "registry:component",
+      "title": "Synced double shutter (Dark)",
+      "description": "Two synchronized panels. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sync-double-dark/shutter-sync-double-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sync-double-minimal",
+      "type": "registry:component",
+      "title": "Synced double shutter (Minimal)",
+      "description": "Two synchronized panels. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sync-double-minimal/shutter-sync-double-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-sync-double-industrial",
+      "type": "registry:component",
+      "title": "Synced double shutter (Industrial)",
+      "description": "Two synchronized panels. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-sync-double-industrial/shutter-sync-double-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-arch-classic",
+      "type": "registry:component",
+      "title": "Double arch shutter (Classic)",
+      "description": "Synchronized double arched windows. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-arch-classic/shutter-double-arch-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-arch-warm",
+      "type": "registry:component",
+      "title": "Double arch shutter (Warm)",
+      "description": "Synchronized double arched windows. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-arch-warm/shutter-double-arch-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-arch-dark",
+      "type": "registry:component",
+      "title": "Double arch shutter (Dark)",
+      "description": "Synchronized double arched windows. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-arch-dark/shutter-double-arch-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-arch-minimal",
+      "type": "registry:component",
+      "title": "Double arch shutter (Minimal)",
+      "description": "Synchronized double arched windows. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-arch-minimal/shutter-double-arch-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-double-arch-industrial",
+      "type": "registry:component",
+      "title": "Double arch shutter (Industrial)",
+      "description": "Synchronized double arched windows. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-double-arch-industrial/shutter-double-arch-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-independent-double-classic",
+      "type": "registry:component",
+      "title": "Independent double shutter (Classic)",
+      "description": "Two panels with independent motors. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-independent-double-classic/shutter-independent-double-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-independent-double-warm",
+      "type": "registry:component",
+      "title": "Independent double shutter (Warm)",
+      "description": "Two panels with independent motors. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-independent-double-warm/shutter-independent-double-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-independent-double-dark",
+      "type": "registry:component",
+      "title": "Independent double shutter (Dark)",
+      "description": "Two panels with independent motors. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-independent-double-dark/shutter-independent-double-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-independent-double-minimal",
+      "type": "registry:component",
+      "title": "Independent double shutter (Minimal)",
+      "description": "Two panels with independent motors. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-independent-double-minimal/shutter-independent-double-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-independent-double-industrial",
+      "type": "registry:component",
+      "title": "Independent double shutter (Industrial)",
+      "description": "Two panels with independent motors. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-independent-double-industrial/shutter-independent-double-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-1500-classic",
+      "type": "registry:component",
+      "title": "Stagger 1.5s shutter (Classic)",
+      "description": "Independent panels with 1500ms stagger. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-1500-classic/shutter-stagger-1500-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-1500-warm",
+      "type": "registry:component",
+      "title": "Stagger 1.5s shutter (Warm)",
+      "description": "Independent panels with 1500ms stagger. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-1500-warm/shutter-stagger-1500-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-1500-dark",
+      "type": "registry:component",
+      "title": "Stagger 1.5s shutter (Dark)",
+      "description": "Independent panels with 1500ms stagger. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-1500-dark/shutter-stagger-1500-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-1500-minimal",
+      "type": "registry:component",
+      "title": "Stagger 1.5s shutter (Minimal)",
+      "description": "Independent panels with 1500ms stagger. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-1500-minimal/shutter-stagger-1500-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-1500-industrial",
+      "type": "registry:component",
+      "title": "Stagger 1.5s shutter (Industrial)",
+      "description": "Independent panels with 1500ms stagger. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-1500-industrial/shutter-stagger-1500-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-curved-classic",
+      "type": "registry:component",
+      "title": "Stagger curved shutter (Classic)",
+      "description": "800ms stagger with curvature and thick slats. Color: Classic.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-curved-classic/shutter-stagger-curved-classic.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-curved-warm",
+      "type": "registry:component",
+      "title": "Stagger curved shutter (Warm)",
+      "description": "800ms stagger with curvature and thick slats. Color: Warm.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-curved-warm/shutter-stagger-curved-warm.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-curved-dark",
+      "type": "registry:component",
+      "title": "Stagger curved shutter (Dark)",
+      "description": "800ms stagger with curvature and thick slats. Color: Dark.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-curved-dark/shutter-stagger-curved-dark.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-curved-minimal",
+      "type": "registry:component",
+      "title": "Stagger curved shutter (Minimal)",
+      "description": "800ms stagger with curvature and thick slats. Color: Minimal.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-curved-minimal/shutter-stagger-curved-minimal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shutter-stagger-curved-industrial",
+      "type": "registry:component",
+      "title": "Stagger curved shutter (Industrial)",
+      "description": "800ms stagger with curvature and thick slats. Color: Industrial.",
+      "registryDependencies": [
+        "@chumy/shutter"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "framer-motion"
+      ],
+      "categories": [
+        "shutter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/shutter-stagger-curved-industrial/shutter-stagger-curved-industrial.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}

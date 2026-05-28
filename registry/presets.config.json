@@ -1,0 +1,265 @@
+{
+  "variants": ["classic", "warm", "dark", "minimal", "industrial"],
+  "templates": [
+    {
+      "id": "rectangle",
+      "title": "Rectangle shutter",
+      "description": "Rectangular window shutter.",
+      "label": "Rectangle",
+      "props": { "size": "md", "defaultLevel": 65 }
+    },
+    {
+      "id": "arch",
+      "title": "Arch shutter",
+      "description": "Arched window shutter.",
+      "label": "Arch",
+      "props": { "size": "md", "shape": "arch", "defaultLevel": 55 }
+    },
+    {
+      "id": "round",
+      "title": "Round shutter",
+      "description": "Round window shutter.",
+      "label": "Round",
+      "props": { "size": "md", "shape": "round", "defaultLevel": 80 }
+    },
+    {
+      "id": "porthole",
+      "title": "Porthole shutter",
+      "description": "Porthole window with rim.",
+      "label": "Porthole",
+      "props": { "size": "md", "shape": "porthole", "defaultLevel": 45 }
+    },
+    {
+      "id": "gothic",
+      "title": "Gothic shutter",
+      "description": "Gothic window shape.",
+      "label": "Gothic",
+      "props": { "size": "md", "shape": "gothic", "defaultLevel": 35 }
+    },
+    {
+      "id": "casement-4",
+      "title": "4-pane casement shutter",
+      "description": "Casement window with cross mullions.",
+      "label": "4-pane casement",
+      "props": { "size": "md", "shape": "casement", "defaultLevel": 55 }
+    },
+    {
+      "id": "sash",
+      "title": "Sash shutter",
+      "description": "Sash window with horizontal division.",
+      "label": "Sash",
+      "props": { "size": "md", "shape": "sash", "defaultLevel": 60 }
+    },
+    {
+      "id": "double-casement",
+      "title": "Double casement shutter",
+      "description": "Side-by-side casement panels.",
+      "label": "Double casement",
+      "props": {
+        "size": "lg",
+        "shape": "casement",
+        "panels": 2,
+        "defaultLevel": 50
+      }
+    },
+    {
+      "id": "double-casement-independent",
+      "title": "Independent double casement shutter",
+      "description": "Two casement panels with independent levels.",
+      "label": "Independent double",
+      "props": {
+        "size": "lg",
+        "shape": "casement",
+        "panels": 2,
+        "panelMode": "independent",
+        "slatSize": "thick",
+        "defaultLevels": [30, 80]
+      }
+    },
+    {
+      "id": "holes-round",
+      "title": "Round-hole shutter",
+      "description": "Thick slats with circular perforations.",
+      "label": "Round holes",
+      "props": {
+        "size": "md",
+        "slatSize": "thick",
+        "holeShape": "circle",
+        "defaultLevel": 50
+      }
+    },
+    {
+      "id": "holes-oval",
+      "title": "Oval-hole shutter",
+      "description": "Thick slats with elliptical holes.",
+      "label": "Oval holes",
+      "props": {
+        "size": "md",
+        "slatSize": "thick",
+        "holeShape": "ellipse",
+        "defaultLevel": 50
+      }
+    },
+    {
+      "id": "holes-rect",
+      "title": "Rectangular-hole shutter",
+      "description": "Realistic rectangular slot perforations.",
+      "label": "Rectangular holes",
+      "props": {
+        "size": "md",
+        "slatSize": "thick",
+        "holeShape": "rectangle",
+        "defaultLevel": 50
+      }
+    },
+    {
+      "id": "holes-rect-curved",
+      "title": "Curved rectangular-hole shutter",
+      "description": "Rectangular holes with 3D curvature.",
+      "label": "Rectangular · curved",
+      "props": {
+        "size": "lg",
+        "slatSize": "chunky",
+        "holeShape": "rectangle",
+        "curved": true,
+        "defaultLevel": 60
+      }
+    },
+    {
+      "id": "slat-fine",
+      "title": "Fine-slat shutter",
+      "description": "Thin slats.",
+      "label": "Fine slats",
+      "props": { "size": "md", "slatSize": "fine", "defaultLevel": 60 }
+    },
+    {
+      "id": "slat-medium",
+      "title": "Medium-slat shutter",
+      "description": "Medium slat thickness.",
+      "label": "Medium slats",
+      "props": { "size": "md", "slatSize": "medium", "defaultLevel": 60 }
+    },
+    {
+      "id": "slat-thick",
+      "title": "Thick-slat shutter",
+      "description": "Thick slats.",
+      "label": "Thick slats",
+      "props": { "size": "md", "slatSize": "thick", "defaultLevel": 60 }
+    },
+    {
+      "id": "slat-chunky",
+      "title": "Chunky-slat shutter",
+      "description": "Extra-thick slats.",
+      "label": "Chunky slats",
+      "props": { "size": "md", "slatSize": "chunky", "defaultLevel": 60 }
+    },
+    {
+      "id": "curved-medium",
+      "title": "Curved medium-slat shutter",
+      "description": "3D curvature with medium slats.",
+      "label": "Curved medium",
+      "props": {
+        "size": "md",
+        "slatSize": "medium",
+        "curved": true,
+        "defaultLevel": 65
+      }
+    },
+    {
+      "id": "curved-thick",
+      "title": "Curved thick-slat shutter",
+      "description": "3D curvature with thick slats.",
+      "label": "Curved thick",
+      "props": {
+        "size": "md",
+        "slatSize": "thick",
+        "curved": true,
+        "defaultLevel": 55
+      }
+    },
+    {
+      "id": "curved-chunky",
+      "title": "Curved chunky-slat shutter",
+      "description": "Large curved shutter with chunky slats.",
+      "label": "Curved chunky",
+      "props": {
+        "size": "lg",
+        "slatSize": "chunky",
+        "curved": true,
+        "defaultLevel": 75
+      }
+    },
+    {
+      "id": "curved-double",
+      "title": "Curved double shutter",
+      "description": "Two panels with curvature.",
+      "label": "Curved double",
+      "props": {
+        "size": "lg",
+        "panels": 2,
+        "curved": true,
+        "slatSize": "thick",
+        "defaultLevel": 60
+      }
+    },
+    {
+      "id": "sync-double",
+      "title": "Synced double shutter",
+      "description": "Two synchronized panels.",
+      "label": "Sync double",
+      "props": { "size": "lg", "panels": 2, "defaultLevel": 60 }
+    },
+    {
+      "id": "double-arch",
+      "title": "Double arch shutter",
+      "description": "Synchronized double arched windows.",
+      "label": "Double arch",
+      "props": {
+        "size": "lg",
+        "panels": 2,
+        "shape": "arch",
+        "defaultLevel": 50
+      }
+    },
+    {
+      "id": "independent-double",
+      "title": "Independent double shutter",
+      "description": "Two panels with independent motors.",
+      "label": "Independent",
+      "props": {
+        "size": "lg",
+        "panels": 2,
+        "panelMode": "independent",
+        "defaultLevels": [30, 90]
+      }
+    },
+    {
+      "id": "stagger-1500",
+      "title": "Stagger 1.5s shutter",
+      "description": "Independent panels with 1500ms stagger.",
+      "label": "Stagger 1.5s",
+      "props": {
+        "size": "lg",
+        "panels": 2,
+        "panelMode": "independent",
+        "stagger": 1500,
+        "defaultLevels": [0, 0]
+      }
+    },
+    {
+      "id": "stagger-curved",
+      "title": "Stagger curved shutter",
+      "description": "800ms stagger with curvature and thick slats.",
+      "label": "Stagger curved",
+      "props": {
+        "size": "lg",
+        "panels": 2,
+        "panelMode": "independent",
+        "stagger": 800,
+        "curved": true,
+        "slatSize": "thick",
+        "defaultLevels": [85, 15]
+      }
+    }
+  ]
+}
